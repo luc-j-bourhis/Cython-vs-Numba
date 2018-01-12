@@ -1,4 +1,4 @@
-# Benchmark Numpy vs Cython vs Numba
+# Benchmark Cython vs Numba
 
 A work-in-progress assessment of Cython vs Numba with Numpy as a baseline for various array manipulation. So far
 
