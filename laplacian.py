@@ -1,6 +1,7 @@
 """ Laplacian filtering of an image
 
-    Adapted from https://flothesof.github.io/optimizing-python-code-numpy-cython-pythran-numba.html
+    Adapted from Florian LE BOURDAIS' blog post at
+    https://flothesof.github.io/optimizing-python-code-numpy-cython-pythran-numba.html
 """
 
 import skimage.data

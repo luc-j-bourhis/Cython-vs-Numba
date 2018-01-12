@@ -1,6 +1,7 @@
 """ Computation of pairwise distances between 3D points
 
-    Adapted from http://jakevdp.github.io/blog/2013/06/15/numba-vs-cython-take-2/
+    Adapted from Jake VanderPlas's blog post at
+    http://jakevdp.github.io/blog/2013/06/15/numba-vs-cython-take-2/
 """
 
 import timeit
