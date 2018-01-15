@@ -36,8 +36,7 @@ def laplacian_numpy(image):
   return thresh
 
 def laplacian_python(image):
-  h = image.shape[0]
-  w = image.shape[1]
+  h,w = image.shape
   laplacian = np.empty((h-2, w-2), dtype=np.double)
   for i in range(1, h-1):
     for j in range(1, w-1):
@@ -48,8 +47,7 @@ def laplacian_python(image):
   return thresh
 
 def laplacian_python_bis(image):
-  h = image.shape[0]
-  w = image.shape[1]
+  h,w = image.shape
   laplacian = np.empty((h-2, w-2), dtype=np.double)
   for i in range(1, h-1):
     for j in range(1, w-1):
