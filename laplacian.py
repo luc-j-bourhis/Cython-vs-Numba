@@ -38,7 +38,7 @@ def laplacian_numpy(image):
 def laplacian_python(image):
   h = image.shape[0]
   w = image.shape[1]
-  laplacian = np.empty((w-2, h-2), dtype=np.double)
+  laplacian = np.empty((h-2, w-2), dtype=np.double)
   for i in range(1, h-1):
     for j in range(1, w-1):
       laplacian[i-1, j-1] = (image[i-1, j] + image[i+1, j] +
@@ -50,7 +50,7 @@ def laplacian_python(image):
 def laplacian_python_bis(image):
   h = image.shape[0]
   w = image.shape[1]
-  laplacian = np.empty((w-2, h-2), dtype=np.double)
+  laplacian = np.empty((h-2, w-2), dtype=np.double)
   for i in range(1, h-1):
     for j in range(1, w-1):
       l = (image[i-1, j] + image[i+1, j] +
